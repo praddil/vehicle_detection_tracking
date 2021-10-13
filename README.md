@@ -33,7 +33,7 @@ such algorithms to accomplish the task of tracking the objects. [Kalman.py]
 <br />The author of the these algorithm files are mentioned in the referenced section.
 <br />Please visit the link in the referenced section to see their work.
 
-###Referenced and Acknowledgement:
+### References and Acknowledgements:
 
 1. [Multiple object tracking using Kalman Filter and Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking)
 2. [Real Time Object Detection using YOLOv3 with OpenCV and Python](https://medium.com/analytics-vidhya/real-time-object-detection-using-yolov3-with-opencv-and-python-64c985e14786)
