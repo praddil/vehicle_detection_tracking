@@ -1,10 +1,13 @@
 # Vehicle Detection and Tracking
-
 ----
+
 ### Description:
 This project aims to detect moving traffic vehicles. Each vehicles are assigned a unique ID number while tracking its path of travel.
 I have used the Yolo weights V3 for the detection purpose. For tracking it utilizes Kalman Filter and Hungarian alogrithm written
 in python by author Srini Ananthakrishnan.
+
+<img src="output/test.png" width="300"  >
+<br />
 
 ### Required Files
 Main -- main_multiprocessing.py <br />
