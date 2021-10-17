@@ -3,8 +3,20 @@
 ----
 ### Description:
 This project aims to detect moving traffic vehicles. Each vehicles are assigned a unique ID number while tracking its path of travel.
-I have used the Yolo weights for the detection purpose. For tracking it utilizes Kalman Filter and Hungarian alogrithm written
+I have used the Yolo weights V3 for the detection purpose. For tracking it utilizes Kalman Filter and Hungarian alogrithm written
 in python by author Srini Ananthakrishnan.
+
+### Required Files
+Main -- main_multiprocessing.py <br />
+
+Required files are provided in the link <br />
+.<br/>
+|-- config/data/coco.names <br />
+|-- config/src/yolov3.weights <br />
+|-- config/src/yolov3.cfg <br />
+|-- config/video/MVI_1991.mp4<br />
+
+https://drive.google.com/drive/folders/1CUhW7fkszUmnC7hIdWIQyRAnalaHCvjm?usp=sharing
 
 ### Dependencies:
 Python~=3.6 <br />
@@ -14,8 +26,9 @@ Shapely~=1.7.0 <br />
 scipy~=1.4.1 <br />
 
 ### Note:
-1. Intel GPU preferred. Can run in CPU but it is utterly slow. Have not tested in Nvidia GPU.<br />
+1. GPU preferred. Can run in CPU but it is utterly slow.
 2. Multiprocessing starts off with a time sleep of 5 sec.
+3. Adjust thresholds and parameters accroding to the video properties.
 
 ### Work in progress:
 Speed Estimation for moving vehicles.
@@ -23,7 +36,6 @@ Speed Estimation for moving vehicles.
 ### Needs Improvement:
 1. Detection of only selected objects instead of wide range of classes in yolo-weights can increase the runtime.
 2. Multiprocesing can be better optimzed- currently only one sub-process runnnning.
-
 
 ### About Author:
 @praddil <br />
