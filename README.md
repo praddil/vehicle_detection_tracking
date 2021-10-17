@@ -3,10 +3,9 @@
 
 ### Description:
 This project aims to detect moving traffic vehicles. Each vehicles are assigned a unique ID number while tracking its path of travel.
-I have used the Yolo weights V3 for the detection purpose. For tracking it utilizes Kalman Filter and Hungarian alogrithm written
-in python by author Srini Ananthakrishnan.
+I have used the Yolo weights V3 for the detection purpose. For tracking it utilizes Kalman Filter and Hungarian alogrithm.
 
-<img src="output/test.png" width="300"  >
+<img src="output/test.png" width="500"  >
 <br />
 
 ### Required Files
@@ -43,15 +42,16 @@ Speed Estimation for moving vehicles.
 ### About Author:
 @praddil <br />
 This is my first project on Github. I am student in computer science major. I am not a professional by any means. I am learning by doing these side projects. <br />
-There are two referenced files in this project that contains algorithm like Kalman Filter and Hungarian Algorithm. This project utilizes
-such algorithms to accomplish the task of tracking the objects. [Kalman.py]
+There are two referenced files in this project that contains algorithm like Kalman Filter and Hungarian Algorithm. 
+This project utilizes such algorithms to accomplish the task of tracking the objects. [Kalman.py]
 <br />The author of the these algorithm files are mentioned in the referenced section.
 <br />Please visit the link in the referenced section to see their work.
 
 ### References and Acknowledgements:
 
-1. [Multiple object tracking using Kalman Filter and Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking) 
-2. [Real Time Object Detection using YOLOv3 with OpenCV and Python](https://medium.com/analytics-vidhya/real-time-object-detection-using-yolov3-with-opencv-and-python-64c985e14786)
+1. [Multiple object tracking using Kalman Filter and Hungarian Algorithm](https://github.com/srianant/kalman_filter_multi_object_tracking) -- Srini Ananthakrishnan
+2. [Real Time Object Detection using YOLOv3 with OpenCV and Python](https://medium.com/analytics-vidhya/real-time-object-detection-using-yolov3-with-opencv-and-python-64c985e14786) -- Darshan Adakane
+
 
 
 
