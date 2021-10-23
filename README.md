@@ -5,9 +5,11 @@
 This project aims to detect moving traffic vehicles. Each vehicles are assigned a unique ID number while tracking its path of travel.
 I have used the Yolo weights V3 for the detection purpose. For tracking it utilizes Kalman Filter and Hungarian algorithm.
 
-### Test Video:
+<img src="output/test.png" width="500"  >
+<br />
 
-
+### Sample Video:
+https://drive.google.com/file/d/1kOdvSictoKfC7AE6TmKqXspvJhszdm_m/view?usp=sharing
 
 ### Required Files
 Main -- main_multiprocessing.py <br />
