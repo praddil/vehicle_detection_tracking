@@ -6,6 +6,7 @@ This project aims to detect moving traffic vehicles. Each vehicles are assigned 
 I have used the Yolo weights V3 for the detection purpose. For tracking it utilizes Kalman Filter and Hungarian algorithm.
 
 ### Test Video:
+https://user-images.githubusercontent.com/91981896/138541891-095a3ce7-f830-423b-ab03-5578e0b7ac73.mp4
 
 
 
